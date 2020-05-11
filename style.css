@@ -3,6 +3,10 @@
   padding:0;
   box-sizing: border-box;
 }
+/* main{
+  width: 100vh;
+  height:100vh;
+} */
 
 #intestazione{
   height:150px;
@@ -20,18 +24,18 @@
   height:263px;
   float: left;
   background-color:#cc87da;
-  margin:10px 0;
+  margin:1% 0;
 }
 .content3{
-  float:right;
-  margin:10px 0;
+  float: right;
 }
+
 .content2{
-  width:37%;
+  width:36%;
   height:500px;
   float: left;
   background-color:purple;
-  margin:10px 20px;
+  margin: 1% 2%;
 }
 /* parametri piè di pagina */
 footer{
