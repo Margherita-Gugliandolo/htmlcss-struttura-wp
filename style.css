@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#intestazione{
+  height:150px;
+  background-color: yellow;
+}
+
+.container::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+/* parametri blocchi */
+.content1, .content3{
+  width:30%;
+  height:263px;
+  float: left;
+  background-color:#cc87da;
+  margin:10px 0;
+}
+.content3{
+  float:right;
+  margin:10px 0;
+}
+.content2{
+  width:37%;
+  height:500px;
+  float: left;
+  background-color:purple;
+  margin:10px 20px;
+}
+/* parametri piè di pagina */
+footer{
+  height:100px;
+  background-color: lightblue;
+}
